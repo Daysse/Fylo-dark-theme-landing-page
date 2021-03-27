@@ -1,0 +1,27 @@
+.btn--header{
+    width: 35%;
+    min-height: 50px;
+    border: none;
+    border-radius: 2em;
+    background: linear-gradient(hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Raleway';
+    font-weight: bold;
+    display: inline-block;
+}
+
+.btn--started{
+    width: 25%;
+    min-height: 48px;
+    border: none;
+    border-radius: 2em;
+    background: linear-gradient(hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Raleway';
+    font-weight: bold;
+    display: inline-block;
+    margin-left: 2em;
+    margin-top: 1em;
+}

@@ -1,0 +1,29 @@
+footer{
+    background-color: hsl(216, 53%, 9%);
+    padding-top: 15em;
+    padding-left: 10em;
+    margin: 0 auto;
+}
+
+.first-part{
+    display: flex;
+    flex-direction: column;
+    
+    & .position{
+        display: flex;
+        align-items: baseline;
+        width: 40%;
+    }
+    & .position img{
+        height: 20px;
+        margin-right: 20px;
+    }
+    & p{
+        @extend %darkenp;
+    }
+}
+
+
+.flex-footer{
+    display: flex;
+}

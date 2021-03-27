@@ -1,0 +1,17 @@
+article{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 15%;
+    text-align: center;
+    margin: 0 auto;
+    width: 77%;
+    margin-top: 15%;
+    margin-bottom: 15%;
+    & h2{
+        @extend %darkenh1;
+    }
+    & p{
+        @extend %darkenp;
+    }
+}

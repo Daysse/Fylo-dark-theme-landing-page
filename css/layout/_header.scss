@@ -1,0 +1,51 @@
+@import '../utils/placeholder','../utils/mixin';
+
+
+.top__header{
+    margin-top: 50px;
+    font-family: 'Raleway';
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    & ul{
+        display: flex;
+    }
+    & li{
+        margin-left: 40px;
+        font-weight:normal;
+    }
+    & a{
+        color: darken($color: #fff, $amount: 35%);
+        text-decoration: none;
+    }
+    & a:hover{
+        color: lighten($color: #fff, $amount: 10%);
+        text-decoration: underline;
+    }
+}
+
+.header__main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 0 auto;
+    width: 55%;
+    margin-top: 3.5em;
+    & h1{
+        color: darken($color: #fff, $amount: 5%);
+    }
+    & p{
+        font-size: 1rem;
+        line-height: 1.5em;
+        width: 75%;
+        color: darken($color: #fff, $amount: 20%);
+        font-weight: 400;
+        margin-bottom: 2em;
+    }
+}
+
+
